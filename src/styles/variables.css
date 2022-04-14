@@ -21,8 +21,8 @@
 
 :root {
   --default-font-family: 'Arco Perpetuo Pro', sans-serif;
-  --font-size-regular: 16px;
-  --font-size-small: 14px;
+  --font-size-regular: 1rem;
+  --font-size-small: 0.875rem;
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;

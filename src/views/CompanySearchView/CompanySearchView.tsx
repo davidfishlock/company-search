@@ -34,7 +34,7 @@ const CompanySearchView: React.FC = () => {
 
       {status === 'success' && data?.pages.length && (
         <p className={classes.statusText}>
-          {data?.pages ? `${totalResults} Results Found` : `No results found for "${searchQuery}"`}
+          {data.pages[0].total_results ? `${totalResults} Results Found` : `No results found for "${searchQuery}"`}
         </p>
       )}
 
