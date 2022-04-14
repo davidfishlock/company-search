@@ -12,6 +12,7 @@ const SearchInput: React.FC<Props> = ({ onSearchSubmit }) => {
     <form className={classes.searchInput} onSubmit={(e) => e.preventDefault()}>
       <input
         type="text"
+        aria-label="Company name"
         placeholder="Enter company name to search ..."
         value={textInput}
         onChange={(e) => setTextInput(e.target.value)}
