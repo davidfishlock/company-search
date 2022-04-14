@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Arco Perpetuo Pro";
+  font-weight: 400;
+  font-display: swap;
+  src: local('Arco Perpetuo Pro'), url(../fonts/ArcoPerpetuoPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Arco Perpetuo Pro";
+  font-weight: 600;
+  font-display: swap;
+  src: local('Arco Perpetuo Pro'), url(../fonts/ArcoPerpetuoPro-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Arco Perpetuo Pro";
+  font-weight: 700;
+  font-display: swap;
+  src: local('Arco Perpetuo Pro'), url(../fonts/ArcoPerpetuoPro-Bold.ttf) format('truetype');
+}
+
+:root {
+  --default-font-family: 'Arco Perpetuo Pro', sans-serif;
+  --font-size-regular: 16px;
+  --font-size-small: 14px;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --page-background: #E5E5E5;
+  --panel-background: #FFFFFF;
+  --panel-border: #F2EFEA;
+  --text-primary: #30262D;
+  --text-secondary: #A6A4A2;
+  --input-background: #F8F7F4;
+  --input-background-focus: #FFFFFF;
+  --input-border: #F2EFEA;
+  --input-border-focus: #A6A4A2;
+  --button-primary-background: #66D7D1;
+  --button-primary-background-hover: #3AA09B;
+  --button-primary-foreground: #FFFFFF;
+  --loader-background: #CCCCCC;
+  --loader-foreground: #66D7D1;
+
+  --radius-regular: 8px;
+}

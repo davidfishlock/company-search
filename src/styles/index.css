@@ -1,4 +1,4 @@
-@import './variables.css';
+@import 'variables.css';
 
 *,
 *::before,
@@ -42,7 +42,7 @@ input[type=text] {
   border: 1px solid var(--input-border);
   border-radius: var(--radius-regular);
   padding: 10px 12px;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 
 input[type=text]:focus {
@@ -65,7 +65,7 @@ button {
   padding: 12px;
   min-width: 127px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 
 button:hover:enabled {
