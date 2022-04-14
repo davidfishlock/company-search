@@ -1,0 +1,14 @@
+@import '../../variables.css';
+
+.searchInput {
+    background-color: var(--panel-background);
+    padding: 12px;
+    border-radius: var(--radius-regular);
+    display: flex;
+    margin-top: 174px;
+}
+
+.searchInput input {
+    flex: auto;
+    margin-right: 16px;
+}

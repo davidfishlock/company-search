@@ -1,0 +1,16 @@
+@import '../../variables.css';
+
+.searchResultItem {
+    background-color: var(--panel-background);
+    border-bottom: 1px solid var(--panel-border);
+    border-radius: var(--radius-regular);
+    display: grid;
+    column-gap: 24px;
+    grid-template-columns: 1.25fr 1fr 1fr;
+    justify-content: space-between;
+    padding: 20px 16px;
+}
+
+.companyNumber {
+    font-size: var(--font-size-small);
+}

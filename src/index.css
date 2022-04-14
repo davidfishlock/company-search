@@ -1,0 +1,78 @@
+@import './variables.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--default-font-family);
+  color: var(--text-primary);
+  font-size: var(--font-size-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--page-background);
+}
+
+#pageContainer {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+input[type=text] {
+  font-family: var(--default-font-family);
+  font-size: var(--font-size-regular);
+  background-color: var(--input-background);
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-regular);
+  padding: 10px 12px;
+  transition: 0.3s;
+}
+
+input[type=text]:focus {
+  outline: none;
+  background-color: var(--input-background-focus);
+  border-color: var(--input-border-focus);
+}
+
+input[type=text]::placeholder {
+  color: var(--text-secondary);
+}
+
+button {
+  background-color: var(--button-primary-background);
+  color: var(--button-primary-foreground);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-small);
+  border-width: 0;
+  border-radius: 20px;
+  padding: 12px;
+  min-width: 127px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover:enabled {
+  background-color: var(--button-primary-background-hover);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}

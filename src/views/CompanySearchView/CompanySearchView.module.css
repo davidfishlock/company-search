@@ -1,0 +1,11 @@
+@import '../../variables.css';
+
+.companySearchView {
+  padding-bottom: 48px;
+}
+
+.statusText {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-bold);
+  margin: 17px 0;
+}
